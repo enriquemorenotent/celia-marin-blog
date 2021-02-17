@@ -23,6 +23,25 @@ function set_custom_attributes($wp_customize)
     //     "section" => "dummy-section",
     //     "settings" => "dummy-panel"
     // ]);
+
+    $wp_customize->add_setting(
+        'cm-avatar',
+        array('default' => ''),
+    );
+
+    $wp_customize->add_control( new WP_Customize_Image_Control(
+        $wp_customize,
+        'cm-control',
+        array(
+            'label'      => __( 'Avatar', 'cm_textdomain' ),
+            'description' => __( 'Avatar to be shown on the menu', 'cm_textdomain' ),
+            'settings'   => 'cm-avatar',
+            'priority'   => 10,
+            'section'    => 'title_tagline',
+            'type'       => 'image',
+        )
+    ) );
+
 }
 
 add_action("customize_register", "set_custom_attributes");

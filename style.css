@@ -3441,3 +3441,13 @@ input[type="button"]:disabled,
     padding: 0;
   }
 }
+
+/* Custom styles */
+.features.works article .image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.features.works article .inner {
+  width: 100%;
+}

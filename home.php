@@ -23,28 +23,28 @@
 
                     <!-- Three -->
                     <section id="works">
-                            <div class="container">
-                                <h3>Mis trabajos</h3>
-                                <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+                        <div class="container">
+                            <h3>Mis trabajos</h3>
+                            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
 
-                                <?php $wpb_all_query = new WP_Query(array('post_type'=>'work', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
-                                <div class="features">
-                                    <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-                                        <article>
+                            <?php $wpb_all_query = new WP_Query(array('post_type'=>'work', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
+                            <div class="features works">
+                                <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+                                    <article>
 
-                                            <a href="<?php the_permalink(); ?>" class="image"><?= get_the_post_thumbnail() ?></a>
-                                            <div class="inner">
+                                        <a href="<?php the_permalink(); ?>" class="image"><?= get_the_post_thumbnail() ?></a>
+                                        <div class="inner">
 
-                                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-                                                <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-                                            </div>
-                                        </article>
+                                            <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+                                        </div>
+                                    </article>
 
-                                    <?php endwhile; ?>
-                                </div>
-                                <?php wp_reset_postdata(); ?>
+                                <?php endwhile; ?>
                             </div>
-                        </section>
+                            <?php wp_reset_postdata(); ?>
+                        </div>
+                    </section>
 
 
                     <!-- Three -->
