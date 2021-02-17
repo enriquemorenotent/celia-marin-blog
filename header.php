@@ -10,7 +10,7 @@
         <!-- Header -->
         <section id="header">
             <header>
-                <span class="image avatar"><img src="<?= get_template_directory_uri() ?>/images/avatar.jpeg" alt="" /></span>
+                <span class="image avatar"><img src="<?= get_template_directory_uri() ?>/images/avatar.jpg" alt="" /></span>
                 <h1 id="logo"><a href="#">Celia Marín</a></h1>
                 <p>Locución y Comunicación Creativa</p>
             </header>
