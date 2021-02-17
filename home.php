@@ -8,7 +8,7 @@
                     <!-- One -->
                         <section id="about-me">
                             <div class="image main" data-position="center">
-                                <img src="<?= get_template_directory_uri() ?>/images/logo.jpeg" alt="" />
+                                <a href="/"><img src="<?= get_template_directory_uri() ?>/images/logo.jpeg" alt="" /></a>
                             </div>
                             <div class="container">
                                 <header class="major">
