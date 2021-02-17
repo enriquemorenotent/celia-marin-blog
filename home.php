@@ -24,7 +24,7 @@
                     <!-- Three -->
                     <section id="works">
                             <div class="container">
-                                <h3>A Few Accomplishments</h3>
+                                <h3>Mis trabajos</h3>
                                 <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
 
                                 <?php $wpb_all_query = new WP_Query(array('post_type'=>'work', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
@@ -48,7 +48,7 @@
 
 
                     <!-- Three -->
-                    <section id="works">
+                    <section id="blog">
                             <div class="container">
                                 <h3>Blog</h3>
                                 <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
