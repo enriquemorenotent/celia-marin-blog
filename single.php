@@ -24,6 +24,11 @@
                                 <?php the_content(); ?>
                             <?php endwhile; ?>
                         <?php endif; ?>
+
+                        <?php if (comments_open()) : ?>
+                            <?php comments_template(); ?>
+                        <?php endif; ?>
+
                     </div>
                 </section>
 
