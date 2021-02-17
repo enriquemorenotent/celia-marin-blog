@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+/* @import url("fontawesome-all.min.css"); */
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 /*
@@ -2773,6 +2773,7 @@ input[type="button"]:disabled,
 .features article .image img {
   display: block;
   width: 100%;
+  height: auto;
 }
 
 .features article .inner {
