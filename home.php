@@ -1,3 +1,4 @@
+<!-- home.php -->
 <?php get_header() ?>
     <!-- Wrapper -->
         <div id="wrapper">
