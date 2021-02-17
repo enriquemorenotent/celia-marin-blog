@@ -16,10 +16,10 @@
             </header>
             <nav id="nav">
                 <ul>
-                    <li><a href="#about-me" class="active">Sobre mi</a></li>
+                    <li><a href="#about-me" class="active">Sobre mí</a></li>
                     <li><a href="#works">Mis trabajos</a></li>
                     <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav>
             <footer>
