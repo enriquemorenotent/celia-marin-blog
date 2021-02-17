@@ -12,6 +12,18 @@
                                 <a href="/"><?= the_custom_logo(); ?></a>
                             </div>
                             <div class="container">
+                                <?php if ( have_posts() ) : ?>
+                                    <?php while ( have_posts() ) : ?>
+                                        <?php the_post(); ?>
+
+                                        <header class="major">
+                                            <h2><?php the_title(); ?></h2>
+                                        </header>
+
+                                        <?php the_content(); ?>
+                                    <?php endwhile; ?>
+                                <?php endif; ?>
+
                                 <header class="major">
                                     <h2>Read Only</h2>
                                     <p>Just an incredibly simple responsive site<br />
