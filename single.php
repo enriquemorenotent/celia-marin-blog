@@ -6,7 +6,7 @@
                 <div id="main">
                 <section id="about-me">
                     <div class="image main" data-position="center">
-                        <a href="/"><img src="<?= get_template_directory_uri() ?>/images/logo.jpeg" alt="" /></a>
+                        <a href="/"><?= the_custom_logo(); ?></a>
                     </div>
                 </section>
 
