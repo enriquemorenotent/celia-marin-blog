@@ -1,4 +1,4 @@
-asd<!-- single.php -->
+<!-- single-work.php -->
 <?php get_header() ?>
     <!-- Wrapper -->
         <div id="wrapper">
