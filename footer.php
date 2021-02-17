@@ -9,6 +9,8 @@
 
 			</div>
 
+			<?php wp_footer() ?>
+
 
 		<!-- Scripts -->
 			<script src="<?= get_template_directory_uri() ?>/assets/js/jquery.min.js"></script>
