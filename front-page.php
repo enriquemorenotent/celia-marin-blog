@@ -47,6 +47,7 @@
 
                                 <?php endwhile; ?>
                             </div>
+                            <a href="/?post_type=work">Más trabajos</a>
                             <?php wp_reset_postdata(); ?>
                         </div>
                     </section>
@@ -72,6 +73,8 @@
 
                                     <?php endwhile; ?>
                                 </div>
+                                <a href="/?post_type=post">Más artículos</a>
+
                                 <?php wp_reset_postdata(); ?>
                             </div>
                         </section>
