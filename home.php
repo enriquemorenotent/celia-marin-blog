@@ -7,7 +7,7 @@
                 <div id="main">
 
                     <!-- One -->
-                        <section id="about-me">
+                        <section id="sobre-mi">
                             <div class="image main" data-position="center">
                                 <a href="/"><?= the_custom_logo(); ?></a>
                             </div>
@@ -28,7 +28,7 @@
 
 
                     <!-- Three -->
-                    <section id="works">
+                    <section id="trabajos">
                         <div class="container">
                             <h3>Mis trabajos</h3>
 
