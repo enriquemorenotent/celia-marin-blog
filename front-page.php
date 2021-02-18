@@ -41,7 +41,7 @@
                                         <div class="inner">
 
                                             <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-                                            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+                                            <?= get_the_excerpt( ) ?>
                                         </div>
                                     </article>
 
