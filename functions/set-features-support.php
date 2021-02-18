@@ -40,6 +40,7 @@ function set_theme_support()
     // Default thumbnail size
     set_post_thumbnail_size(800, 600);
 
+    add_theme_support( 'responsive-embeds' );
 }
 
 add_action("after_setup_theme", "set_theme_support");
