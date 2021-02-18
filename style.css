@@ -3448,6 +3448,11 @@ input[type="button"]:disabled,
   margin-bottom: 20px;
 }
 
+.features.works article .image img {
+  object-fit: cover;
+  max-height: 400px;
+}
+
 .features.works article .inner {
   width: 100%;
 }
