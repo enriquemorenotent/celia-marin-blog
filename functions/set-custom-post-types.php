@@ -13,6 +13,9 @@ function set_custom_post_types()
         "has_archive" => true,
         "show_in_rest" => true,
         'supports' => ['title', 'editor',  'excerpt', 'thumbnail'],
+        "rewrite" => [
+            "slug" => "trabajos"
+        ]
     ]);
 }
 
