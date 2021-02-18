@@ -12,6 +12,7 @@
                                 <a href="/"><?= the_custom_logo(); ?></a>
                             </div>
                             <div class="container">
+                                <div class="features">
 
                                 <?php if ( have_posts() ) : ?>
                                     <?php while ( have_posts() ) : ?>
@@ -25,6 +26,7 @@
                                         </article>
                                     <?php endwhile; ?>
                                 <?php endif; ?>
+                                    </div>
                             </div>
                         </section>
                 </div>
