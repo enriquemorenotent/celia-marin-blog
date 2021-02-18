@@ -17,7 +17,7 @@
                                     <?php while ( have_posts() ) : ?>
                                         <?php the_post(); ?>
 
-                                        <header class="major">
+                                        <header>
                                             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                                         </header>
 
