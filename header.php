@@ -45,11 +45,11 @@
             </nav>
             <footer>
                 <ul class="icons">
-                    <li><a href="https://www.linkedin.com/in/celia-mar%C3%ADn-benito/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-                    <li><a href="https://www.facebook.com/celia.marin.benito" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                    <li><a href="https://www.instagram.com/celiamarin/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="https://twitter.com/celiamarin" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="mailto:celiamarben@gmail.com" class="icon solid fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/celia-mar%C3%ADn-benito/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/celia.marin.benito" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/celiamarin/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a target="_blank" href="https://twitter.com/celiamarin" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a target="_blank" href="mailto:celiamarben@gmail.com" class="icon solid fa-envelope" target="_blank"><span class="label">Email</span></a></li>
                 </ul>
             </footer>
         </section>
