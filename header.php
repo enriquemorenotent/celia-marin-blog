@@ -14,6 +14,14 @@
         <meta name="msapplication-config" content="/wp-content/themes/celia-marin-blog/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
 
+
+
+        <meta property="og:title" content="How to change the address bar color in Chrome, Firefox, Opera, Safari" />
+        <meta property="og:description" content="How to change the address bar color in Chrome, Firefox, Opera, Safari" />
+        <meta property="og:url" content="http://celiamarin.com" />
+        <meta property="og:image" content="http://celiamarin.com/wp-content/uploads/2021/02/logo.jpeg" />
+
+
         <?php wp_head() ?>
     </head>
     <body <?php body_class("is-preload") ?>>
