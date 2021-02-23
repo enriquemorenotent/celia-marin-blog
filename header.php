@@ -40,7 +40,6 @@
                     <li><a href="#sobre-mi">Sobre mí</a></li>
                     <li><a href="#trabajos">Mis trabajos</a></li>
                     <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav>
             <footer>
